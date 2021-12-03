@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Commande Apple</title>
+</head>
+
+<body>
+    <main class="principal">
+        <!-- Box principale -->
+        <div class="titre_principal">
+            <!-- Titre principale -->
+            <figure class="la_pomme">
+                <img src="assets/Logo_apple.png" alt="logo">
+            </figure>
+            <table>
+                <ul class="menu">
+                    <li>Products</li>
+                    <li>TV</li>
+                    <li>Music</li>
+                    <li>Support</li>
+                </ul>
+            </table>
+        </div>
+        <section class="contenu_principal">
+            <section class="gauche">
+                <!-- Box Gauche -->
+                <div class="titre_gauche">Payement</div>
+                <figure class="image_gauche">
+                    <img src="assets/imac-pink.jpg" alt="imac-pink">
+                </figure>
+                <div class="sous_total">
+                    <div>Subtotal</div>
+                    <div>2869,00 €</div>
+                </div>
+                <div class="shipping">
+                    <div>Shipping</div>
+                    <div>free</div>
+                </div>
+                <div class="total">
+                    <div>Total</div>
+                    <div>2869,00 €</div>
+                </div>
+            </section>
+
+            <section class="droite">
+                <!-- Box Droite -->
+                <section class="titre_progress">
+                    <div class="valid">v</div>
+                    <div class="trait"></div>
+                    <div class="valid">v</div>
+                    <div class="trait"></div>
+                    <div class="rondcreux"></div>
+                    <div class="trait2"></div>
+                    <div class="rondplein"></div>
+                </section>
+                <div>
+                    <ul class="legend">
+                        <li>Account</li>
+                        <li>Shipping</li>
+                        <li>Payement</li>
+                        <li>Confirmation</li>
+                    </ul>
+                </div>
+                <section class="cb">
+                    <div class="choix_cb">Select Payment Method</div>
+                    <div class="ligne1">
+                        <div><input type="button" class="visa"></div>
+                        <div><input type="button" class="applepay"></div>
+                        <div><input type="button" class="paypal"></div>
+                    </div>
+                    <div class="card_number">Card Number</div>
+                    <div class="ligne2">
+                        <div class="number1">
+                            <input type="tel" name="number1" id="number1" placeholder="0000" inputmode="numeric" pattern="[0-9\s]{4}"  maxlength="4">
+                        </div>
+                        <div class="number2">
+                            <input type="tel" name="number1" id="number2" placeholder="0000" inputmode="numeric" pattern="[0-9\s]{4}" maxlength="4">
+                        </div>
+                        <div class="number3">
+                            <input type="tel" name="number1" id="number3" placeholder="0000" inputmode="numeric" pattern="[0-9\s]{4}" maxlength="4">
+                        </div>
+                        <div class="number4">
+                            <input type="tel" name="number1" id="number4" placeholder="0000" inputmode="numeric" pattern="[0-9\s]{4}" maxlength="4">
+                        </div>
+                    </div>
+                    <div class="titre_ligne3">
+                        <div class="titre_date">Expiration date</div>
+                        <div class="titre_cvc">CVC</div>
+                    </div>
+                    <div class="ligne3G">
+                        <div class="date_card">
+                            <div class="mois">
+                                <input type="number" name="mois" id="mois" placeholder="MM" maxlength="2">
+                            </div>
+                            <div class="annee">
+                                <input type="number" name="annee" id="annee" placeholder="YY" maxlength="2">
+                            </div>
+                        </div>
+                        <div class="cvc">
+                            <input type="number" name="cvc" id="cvc" placeholder="000" maxlength="3">
+                        </div>
+                    </div>
+                    <div class="titre_name">Name</div>
+                    <div class="name">
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="boutons">
+                        <div class="bt_return">
+                            <button type="reset">
+                                Back</button> </div>
+                        <div class="bt_pay">
+                            <button type="submit">Pay 2869 €</button>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
